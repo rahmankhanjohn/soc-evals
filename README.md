@@ -1,5 +1,13 @@
 # soc-evals
 
+![Tests](https://github.com/rahmankhanjohn/soc-evals/actions/workflows/test.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+![Dependencies: 0](https://img.shields.io/badge/dependencies-0-brightgreen.svg)
+![Tests: 11](https://img.shields.io/badge/tests-11%20passing-brightgreen.svg)
+![GitHub stars](https://img.shields.io/github/stars/rahmankhanjohn/soc-evals?style=social)
+![Last commit](https://img.shields.io/github/last-commit/rahmankhanjohn/soc-evals)
+
 Score a managed SOC proposal against the five questions that decide whether it works.
 
 Most SOC-as-a-Service comparisons are a feature checklist. This is a decision tool. Five questions, and a verdict you can act on.
