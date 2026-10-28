@@ -1,0 +1,53 @@
+# soc-evals
+
+Score a managed SOC proposal against the five questions that decide whether it works.
+
+## What it does
+
+Evaluates a SOC-as-a-Service proposal across five dimensions:
+- Telemetry coverage (percent of estate instrumented)
+- Escalation SLA (minutes to human acknowledging)
+- Data location (in-country, offshore, unknown)
+- Response authority (none, limited, full)
+- Tuning ownership (vendor, customer, shared)
+- Cadence (monthly, quarterly, never)
+
+Outputs a verdict: BUY, CONDITIONAL, or REJECT.
+
+## Key files
+
+- soc_evals.py: main CLI tool (argparse)
+- test_soc_evals.py: 11 tests
+
+## CLI usage
+
+    python soc_evals.py [--coverage 85] [--sla 15] [--data in-country] [--authority full] [--tuning shared] [--cadence quarterly] [--json] [--report]
+
+## Flags
+
+- --coverage: percent of estate instrumented (default: 85)
+- --sla: escalation minutes to human acknowledging (default: 15)
+- --data: data location (in-country, offshore, unknown)
+- --authority: response authority (none, limited, full)
+- --tuning: tuning ownership (vendor, customer, shared)
+- --cadence: tuning cadence (monthly, quarterly, never)
+- --json: machine-readable output
+- --report: one paste-ready summary line
+
+## Exit codes
+
+- 0: verdict is BUY or CONDITIONAL
+- 1: verdict is REJECT
+
+## Design patterns
+
+- Zero dependencies (stdlib only)
+- Single file (soc_evals.py)
+- MIT license
+- --report mode for paste-ready output
+- Exit code 0/1 for CI integration
+
+## Related
+
+- Article 21: "SOCaaS: Three Use Cases That Justify It, Two That Never Will"
+- XERJ Corpus Hub: not yet selected
