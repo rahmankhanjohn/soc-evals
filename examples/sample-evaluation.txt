@@ -1,0 +1,11 @@
+# Sample SOC evaluation
+# Run: python soc_evals.py --coverage 90 --sla 10 --data in-country --authority full --tuning customer --cadence monthly --report
+
+# Good proposal (BUY)
+# python soc_evals.py --coverage 95 --sla 10 --data in-country --authority full --tuning customer --cadence monthly
+
+# Conditional proposal
+# python soc_evals.py --coverage 80 --sla 20 --data offshore --authority limited --tuning shared --cadence quarterly
+
+# Rejected proposal
+# python soc_evals.py --coverage 60 --sla 60 --data unknown --authority none --tuning vendor --cadence never
