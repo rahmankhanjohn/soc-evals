@@ -2,6 +2,7 @@
 
 ![Tests](https://github.com/rahmankhanjohn/soc-evals/actions/workflows/test.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/rahmankhanjohn/badge.svg)
 ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Dependencies: 0](https://img.shields.io/badge/dependencies-0-brightgreen.svg)
 ![Tests: 11](https://img.shields.io/badge/tests-11%20passing-brightgreen.svg)
@@ -17,6 +18,10 @@ Most SOC-as-a-Service comparisons are a feature checklist. This is a decision to
 3. **Data location** — where your data sits while they triage it
 4. **Response authority** — what they are allowed to do inside your environment
 5. **Tuning ownership** — who tunes detection, and how often
+
+## Recognition
+
+Indexed on the [XERJ Corpus Hub](https://hub.xerj.org/contributors/rahmankhanjohn) - the open reference memory AI coding agents search before they write code.
 
 ## Requirements
 
